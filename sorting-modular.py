@@ -1,3 +1,5 @@
+import random,os
+
 def dar_dica(num,comp):
     if num<comp:
         return 'Maior'
@@ -29,7 +31,8 @@ def repita(lista):
             )
 
 def main():
-    sorteado = 5
+    
+    sorteado = random.randint(0,50)
     menu = True
 
     while menu:
@@ -38,7 +41,6 @@ def main():
         if(usuario[1]):
             menu = comparar(usuario[0],sorteado)
             acerto = premiar(menu)
-            
             if(acerto[1]):
                 print(acerto[0])
             else:
