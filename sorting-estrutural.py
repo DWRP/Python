@@ -41,6 +41,6 @@ while menu:
     print(f'Fim de jogo! Número: {numero_comparacao}')
     
     option = input('Deseja continuar a jogar?')
-
+ 
     if (option.lower() != 's' and option.lower() != 'sim'):
         menu = False
