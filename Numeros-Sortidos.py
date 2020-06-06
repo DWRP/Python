@@ -1,3 +1,5 @@
+__AUTHOR__ = "Néfi"
+
 import random 
 
 numeroSortido = random.randint(0, 10)

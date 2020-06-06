@@ -1,3 +1,5 @@
+__AUTHOR__ = "Douglas W."
+
 import random,os
 
 def dar_dica(num,comp):
